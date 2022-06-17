@@ -1,0 +1,126 @@
+/* * {
+    font-family: sans-serif !important;
+} */
+
+.bac-gr {
+    background-image: url(../images/hero5.png);
+    background-size: cover;
+
+}
+
+@media screen and (max-width: 768px) {
+    .bac-gr {
+        background-image: none;
+        background-color: rgba(227, 230, 243, 255);
+
+    }
+
+}
+
+.offset-right {
+    margin-right: 8.3333333%;
+}
+
+.shop-now-img {
+    background-image: url(../images/button1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+
+}
+
+.color-with-hover {
+    color: black !important;
+}
+
+.color-with-hover:hover {
+    color: rgb(45, 134, 118) !important;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+
+
+
+}
+
+.color-with-hover:active {
+    color: rgb(45, 134, 118) !important;
+    text-decoration: underline;
+}
+
+.fw-bold {
+    font-weight: 600 !important;
+}
+
+
+.basket {
+    transform: translate(-20%, -70%) !important;
+    background-color: rgb(45, 134, 118) !important;
+}
+
+@media screen and (max-width: 768px) {
+    .basket {
+
+        left: 30px !important;
+
+    }
+
+}
+
+.link-shop-now {
+    color: rgb(45, 134, 118) !important;
+}
+
+
+.free-shipping-bg {
+    background-color: rgb(245, 220, 235);
+    border-radius: 3px;
+}
+
+.online-order-bg {
+    background-color: #d4e0c5;
+    border-radius: 3px;
+}
+
+.save-money-bg {
+    background-color: rgb(218, 239, 241);
+    border-radius: 3px;
+}
+
+.promotions-bg {
+    background-color: rgba(227, 221, 244, 255);
+    border-radius: 3px;
+}
+
+.happy-sell-bg {
+    background-color: rgb(245, 220, 241);
+    border-radius: 3px;
+}
+
+.support-bg {
+    background-color: rgba(246, 229, 219, 255);
+    border-radius: 3px;
+}
+
+.font-adidas {
+    font-size: x-small;
+
+}
+
+.star-color {
+    color: rgb(245, 179, 56);
+    text-shadow: 0 0 3px rgb(94, 91, 91);
+    font-size: small;
+}
+
+.shirt-cart {
+    color: rgb(45, 134, 118);
+}
+
+.shirt-cart:hover {
+    text-shadow: 0 0 15px rgb(7, 216, 167);
+}
+
+.rounded-4 {
+    border-radius: 1rem;
+}
