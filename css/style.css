@@ -2,7 +2,7 @@
     font-family: sans-serif !important;
 } */
 
-.bac-gr {
+.bac-gr-main {
     background-image: url(../images/hero5.png);
     background-size: cover;
 
@@ -18,7 +18,7 @@
 }
 
 .offset-right {
-    margin-right: 8.3333333%;
+    margin-right: 8.33333333%;
 }
 
 .shop-now-img {
@@ -38,9 +38,6 @@
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-thickness: 3px;
-
-
-
 }
 
 .color-with-hover:active {
@@ -123,4 +120,80 @@
 
 .rounded-4 {
     border-radius: 1rem;
+}
+
+/* repair services  */
+.bac-gr-repair {
+    background-image: url(../images/b2.jpg);
+    background-size: cover;
+    height: 18rem;
+}
+
+/* last section */
+
+.bg-sec-1 {
+    background-image: url(../images/bb17.jpg);
+    background-size: cover;
+    height: 25rem;
+}
+
+.bg-sec-2 {
+    background-image: url(../images/bb10.jpg);
+    background-size: cover;
+    height: 25rem;
+}
+
+.bg-sec-3 {
+    background-image: url(../images/b7.jpg);
+    background-size: cover;
+    height: 16rem;
+}
+
+.bg-sec-4 {
+    background-image: url(../images/b4.jpg);
+    background-size: cover;
+    height: 16rem;
+}
+
+.bg-sec-5 {
+    background-image: url(../images/b18.jpg);
+    background-size: cover;
+    height: 16rem;
+}
+
+/* sign-up */
+
+.bac-gr-sign-up {
+    background-color: rgba(4, 30, 66, 255);
+    height: 18rem;
+}
+
+.orange-color {
+    color: rgba(234, 184, 48, 255);
+}
+
+.bg-btn-color-green {
+    background-color: rgba(8, 129, 120, 255);
+}
+
+.bg-btn-color-green:focus {
+    background-color: rgba(8, 129, 120, 255) !important;
+}
+
+.bg-btn-color-green:hover {
+    background-color: rgba(8, 129, 120, 255) !important;
+}
+
+/* footer */
+
+.footer-links-with-hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+.footer-links-with-hover:hover {
+    color: rgb(0, 0, 0) !important;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
 }
